@@ -1,4 +1,4 @@
-Install Python 3:
+1- Install Python 3:
 
 Most macOS operating systems come with the Python 2.7 version.  The system needs python 3.6 or newer to work correctly. Python3 should be installed alongside python(2) because some apps may still depend on older python(2). Here is the link to install Python3: https://www.python.org/downloads/. 
 .
@@ -15,7 +15,7 @@ Most macOS operating systems come with the Python 2.7 version.  The system needs
 
 .
 
-Install Pycharm:
+2- Install Pycharm:
 
 This  is the link to install the Pycharm:  https://www.jetbrains.com/pycharm/download/#section=mac
 The  minimum system requirements required before installing Pycharm: 
@@ -41,7 +41,7 @@ Python 2.7or newer.
 
 
 
-Create a new project:
+3- Create a new project:
 
 After installing Python and Pycharm, a new project can be created and named using the Pycharm. The project’s name in this report is “ Master’s Seminar.” The following figure explains how to create a new project in Pycharm.
 After the creation of a new project ( Onlinechat ) has been done. Adding the Python interpreter to the new project is required. This process can be done by selecting Pycharm, Preferences, Project: Onlinechat , Python interpreter. 
@@ -64,7 +64,7 @@ After the creation of a new project ( Onlinechat ) has been done. Adding the Pyt
 
 
 
-Install Python libraries:
+4- Install Python libraries:
 
 In this configuration step, some Python libraries have been added to the Python interpreter of the project. This process can be done by executing the following commands individually in the Pycharm terminal.  
 
@@ -74,7 +74,7 @@ pip install flask
 
 pip install flask flask-cors simplejson
 
- pip install pusher
+pip install pusher
  
 pip install virtualenv
 
@@ -121,17 +121,17 @@ To make sure that all Python libraries have been installed successfully, all the
 
 
 
-Setting up Azure:
+5- Setting up Azure:
 
 Azure services -- translate service and text analytics service--  have been used in this project by including Azure’s keys in the code. Getting the Azure’s keys can be done by creating an account on the Azure portal, adding a resource, searching the marketplace, and creating.  After the creation of the service, its API key and the endpoint will be offered. 
 
 Remember to replace the Azure keys with the keys in  in the following files:
 
-translate.py
+1- translate.py
 
-synthesize.py
+2- synthesize.py
 
-sentiment.py
+3- sentiment.py
 
  .
 
@@ -148,7 +148,7 @@ sentiment.py
 .
  
  
-Setting up Pusher:
+6- Setting up Pusher:
 
 The first step here will be to get a Pusher Channels application. We need the application credentials for our real time messaging to work.
 Go to the Pusher website and create an account. After creating an account, you should create a new application. Follow the application creation wizard and then you should be given your application credentials.
@@ -160,9 +160,9 @@ On the dashboard, click on App settings and scroll to the bottom of the page the
 Remember to replace the PUSHER_* keys with the keys in your Pusher 
 dashboard in the following files:
 
-app.js
+1- app.js
 
-app.py 
+2- app.py 
 
 
 .
@@ -182,7 +182,7 @@ app.py
 
 
 
-Running the application:
+7- Running the application:
 
 you can test the application using this command:
 
