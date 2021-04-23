@@ -39,7 +39,6 @@ To make sure that all Python libraries have been installed successfully, all the
 
 Setting up Azure
 Azure services -- translate service and text analytics service--  have been used in this project by including Azure’s keys in the code. Getting the Azure’s keys can be done by creating an account on the Azure portal, adding a resource, searching the marketplace, and creating.  After the creation of the service, its API key and the endpoint will be offered.     
-
  
 Setting up Pusher
 The first step here will be to get a Pusher Channels application. We need the application credentials for our real time messaging to work.
