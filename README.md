@@ -19,10 +19,15 @@ Most macOS operating systems come with the Python 2.7 version.  The system needs
 
 This  is the link to install the Pycharm:  https://www.jetbrains.com/pycharm/download/#section=mac
 The  minimum system requirements required before installing Pycharm: 
-4 GB RAM minimum, 8 GB RAM recommended.
-1.5 GB hard disk space + at least 1 GB for caches.
-1024×768 minimum screen resolution.
-Python 2.7or newer.
+
+1- 4GB RAM minimum, 8 GB RAM recommended.
+
+2- 1.5GB hard disk space + at least 1 GB for caches.
+
+3- 1024×768 minimum screen resolution.
+
+4- Python 2.7or newer.
+
 .
 
 .
