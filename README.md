@@ -68,55 +68,39 @@ After the creation of a new project ( Onlinechat ) has been done. Adding the Pyt
 
 In this configuration step, some Python libraries have been added to the Python interpreter of the project. This process can be done by executing the following commands individually in the Pycharm terminal.
 
-pip install azure
-pip install flask
-pip install flask flask-cors simplejson
- pip install pusher
-pip install virtualenv
-pip install translate
-pip install vaderSentiment
-pip install --upgrade nltk
-pip install --upgrade vaderSentiment
-pip install requests
-pip install matplotlib
-pip install SDK
-pip install Pillow
-pip install azure-ai-textanalytics
-pip install matplotlib
-pip install azure-cognitiveservices-vision-computervision
 
 
-pip install azure
+pip install azure (https://pypi.org/project/azure/)
 
-pip install flask
+pip install flask (https://pypi.org/project/Flask/)
 
-pip install flask flask-cors simplejson
+pip install flask flask-cors simplejson (https://pypi.org/project/Flask-Cors/ )
 
-pip install pusher
+pip install pusher (https://pypi.org/project/pusher/)
  
-pip install virtualenv
+pip install virtualenv (https://pypi.org/project/virtualenv/)
 
-pip install translate
+pip install translate (https://pypi.org/project/translate/)
 
-pip install vaderSentiment
+pip install vaderSentiment (https://pypi.org/project/vaderSentiment/)
 
-pip install --upgrade nltk
+pip install --upgrade nltk (https://pypi.org/project/nltk/)
 
-pip install --upgrade vaderSentiment
+pip install --upgrade vaderSentiment (https://pypi.org/project/vader-sentiment/) 
 
-pip install requests
+pip install requests (https://pypi.org/project/requests/) 
 
-pip install matplotlib
+pip install matplotlib (https://pypi.org/project/matplotlib/)
 
-pip install SDK
+pip install SDK (https://pypi.org/project/SDK/)
 
-pip install Pillow
+pip install Pillow (https://pypi.org/project/Pillow/)
 
-pip install azure-ai-textanalytics
+pip install azure-ai-textanalytics (https://pypi.org/project/azure-ai-textanalytics/)
 
-pip install matplotlib
+pip install matplotlib (https://pypi.org/project/matplotlib/)
 
-pip install azure-cognitiveservices-vision-computervision
+pip install azure-cognitiveservices-vision-computervision (https://pypi.org/project/azure-cognitiveservices-vision-computervision/)
 
                    
 To make sure that all Python libraries have been installed successfully, all these libraries should appear in the project’s python interpreter.  
