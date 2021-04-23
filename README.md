@@ -1,7 +1,10 @@
-Install Python 3
+Install Python 3:
+
 Most macOS operating systems come with the Python 2.7 version.  The system needs python 3.6 or newer to work correctly. Python3 should be installed alongside python(2) because some apps may still depend on older python(2). Here is the link to install Python3: https://www.python.org/downloads/. 
 
-Install Pycharm
+
+Install Pycharm:
+
 This  is the link to install the Pycharm:  https://www.jetbrains.com/pycharm/download/#section=mac
 The  minimum system requirements required before installing Pycharm: 
 4 GB RAM minimum, 8 GB RAM recommended.
