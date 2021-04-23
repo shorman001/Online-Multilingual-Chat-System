@@ -66,7 +66,25 @@ After the creation of a new project ( Onlinechat ) has been done. Adding the Pyt
 
 4- Install Python libraries:
 
-In this configuration step, some Python libraries have been added to the Python interpreter of the project. This process can be done by executing the following commands individually in the Pycharm terminal.  
+In this configuration step, some Python libraries have been added to the Python interpreter of the project. This process can be done by executing the following commands individually in the Pycharm terminal.
+
+pip install azure
+pip install flask
+pip install flask flask-cors simplejson
+ pip install pusher
+pip install virtualenv
+pip install translate
+pip install vaderSentiment
+pip install --upgrade nltk
+pip install --upgrade vaderSentiment
+pip install requests
+pip install matplotlib
+pip install SDK
+pip install Pillow
+pip install azure-ai-textanalytics
+pip install matplotlib
+pip install azure-cognitiveservices-vision-computervision
+
 
 pip install azure
 
