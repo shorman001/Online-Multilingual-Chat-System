@@ -3,9 +3,9 @@
         'use strict';
 
 
-        var pusher = new Pusher('45d7cc3e790756e16f97', {
+        var pusher = new Pusher('PUSHER_APP_KEY', {
             authEndpoint: '/pusher/auth',
-            cluster: 'us2',
+            cluster: 'PUSHER_APP_CLUSTER',
             encrypted: true
         });
 
