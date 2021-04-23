@@ -3,6 +3,11 @@ Install Python 3:
 Most macOS operating systems come with the Python 2.7 version.  The system needs python 3.6 or newer to work correctly. Python3 should be installed alongside python(2) because some apps may still depend on older python(2). Here is the link to install Python3: https://www.python.org/downloads/. 
 
 
+
+
+
+
+
 Install Pycharm:
 
 This  is the link to install the Pycharm:  https://www.jetbrains.com/pycharm/download/#section=mac
@@ -12,10 +17,19 @@ The  minimum system requirements required before installing Pycharm:
 1024×768 minimum screen resolution.
 Python 2.7or newer.
 
+
+
+
+
+
 Create a new project:
 
 After installing Python and Pycharm, a new project can be created and named using the Pycharm. The project’s name in this report is “ Master’s Seminar.” The following figure explains how to create a new project in Pycharm.
 After the creation of a new project ( Onlinechat ) has been done. Adding the Python interpreter to the new project is required. This process can be done by selecting Pycharm, Preferences, Project: Onlinechat , Python interpreter.  
+
+
+
+
 
 
 Install Python libraries:
@@ -59,9 +73,24 @@ To make sure that all Python libraries have been installed successfully, all the
 
 
 
+
+
+
+
 Setting up Azure:
 
-Azure services -- translate service and text analytics service--  have been used in this project by including Azure’s keys in the code. Getting the Azure’s keys can be done by creating an account on the Azure portal, adding a resource, searching the marketplace, and creating.  After the creation of the service, its API key and the endpoint will be offered.     
+Azure services -- translate service and text analytics service--  have been used in this project by including Azure’s keys in the code. Getting the Azure’s keys can be done by creating an account on the Azure portal, adding a resource, searching the marketplace, and creating.  After the creation of the service, its API key and the endpoint will be offered. 
+
+Remember to replace the Azure keys with the keys in  in the following files:
+
+translate.py
+
+synthesize.py
+
+sentiment.py
+
+ 
+ 
  
 Setting up Pusher:
 
@@ -78,6 +107,11 @@ dashboard in the following files:
 app.js
 
 app.py 
+
+
+
+
+
 
 
 Running the application:
