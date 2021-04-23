@@ -133,7 +133,7 @@ To make sure that all Python libraries have been installed successfully, all the
 
 Azure services -- translate service and text analytics service--  have been used in this project by including Azure’s keys in the code. Getting the Azure’s keys can be done by creating an account on the Azure portal (https://azure.microsoft.com/en-us/account/), adding a resource, searching the marketplace, and creating.  After the creation of the service, its API key and the endpoint will be offered. 
 
-Remember to replace the Azure keys with the keys in  in the following files:
+Remember to replace your Azure keys with the keys in  in the following files:
 
 1- translate.py
 
