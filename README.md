@@ -20,7 +20,7 @@ After the creation of a new project ( Onlinechat ) has been done. Adding the Pyt
 
 Install Python libraries:
 
-In this configuration step, some Python libraries have been added to the Python interpreter of the project. This process can be done by executing the following commands individually in the Pycharm terminal.  The following figure  explains how to add the Python library in Pycharm.
+In this configuration step, some Python libraries have been added to the Python interpreter of the project. This process can be done by executing the following commands individually in the Pycharm terminal.  
 
 pip install azure
 
@@ -82,7 +82,7 @@ app.py
 
 Running the application:
 
-We can test the application using this command:
+you can test the application using this command:
 
    $ flask run
    
